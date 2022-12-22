@@ -1,0 +1,230 @@
+body{
+    background: black;
+}
+.header{
+    width: 100%;
+    background-image: url(assets/image-2.svg);
+    background-size: cover;
+    
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 45%;
+}
+
+
+.anuncio{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    /* identical to box height */
+    
+    
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.container-01 {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container-01 p {
+    font-family: 'Raleway';
+    font-size: .75rem;
+    text-align: center;
+    line-height: 1rem;
+    color: white;
+    font-weight: 900;
+
+}
+.container-02 {
+    margin: 1rem auto;
+    text-align: center;
+}
+.subscribe-button{
+    width: 45%;
+    height: 12.5%;
+    border: 3px solid #1572B7;
+    background: transparent;
+}
+
+.subscribe-button span {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 1.25rem;
+line-height: 1rem;
+/* identical to box height */
+
+text-align: center;
+color: #31A8DD;
+
+}
+
+hr {
+    height: 0.025px; 
+}
+
+.informations{
+    margin: 3rem auto 1rem auto;
+}
+
+.informations h2 {
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+text-align: center;
+font-size: 1rem;
+line-height: 1rem;
+margin: .75rem auto;
+letter-spacing: 0.19em;
+color: #33A8DB;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.modulo{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0.75rem 1rem;
+gap: 10px;
+margin: 1rem auto;
+width: 85%;
+height: 5%;
+background: #252525;
+border: 1px solid #33A8DB;
+box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+border-radius: 57px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.modulo p {
+    display: inline;
+    font-family: "Raleway";
+    font-weight: 400;
+    color: white;
+    font-size: 0.75rem;
+    text-align: justify;
+}
+
+.modulo span {
+    color: #33A8DB;
+    font-weight: 400;
+}
+
+.call-to-action{
+    width: 100%;
+    height: 150px;
+    background-image: url(assets/thisisengineering-raeng-8hgmG03spF4-unsplash\ 1.png);
+    background-size: cover;
+    background-position:50%
+}
+
+.call-to-action p {
+    width: 35%;
+    margin: 0 8%;
+    padding: 7.5% 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+.imagem-pcs{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-pcs img{
+    width: 90%;
+
+}
+
+.notes{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 0.75rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rodape{
+    padding: 5% 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+}
+
+.imagem-dio{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-dio img {
+    width: 35%;
+}
+
+.rodape p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 1rem;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.rodape span {
+    color: #33A8DB
+}
+
+@media (min-width:600px) and (max-width:899px){
+
+    .modulo{
+        width: 60%;
+    }
+
+    .call-to-action{
+        height: 200px;
+    }
+    .call-to-action p{
+        width: 20%;
+    }
+}
+

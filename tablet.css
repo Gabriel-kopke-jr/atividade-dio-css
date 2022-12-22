@@ -1,0 +1,41 @@
+@media (min-width:900px){
+
+    .logo img {
+        width: 35%;
+    }
+
+    .anuncio{
+        font-size: 2.25rem;
+        line-height: 3rem;
+        /* identical to box height */
+        }
+    
+    .container-01 p {
+        font-size: 1.15rem;
+        line-height: 1.75rem;
+        }      
+    
+        .subscribe-button{
+            height: 60px;
+        }
+    
+    .subscribe-button span {
+        font-size: 1.5rem;
+        }
+        
+
+    .modulo{
+        width: 40%;
+    }
+
+    .modulo{
+        width: 60%;
+    }
+
+    .call-to-action{
+        height: 260px;
+    }
+    .call-to-action p{
+        width: 15%;
+    }
+}
